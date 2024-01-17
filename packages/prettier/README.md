@@ -37,6 +37,15 @@ export default config;
 
 ```
 
+## Scripts
+
+```json
+"scripts": {
+  "format": "prettier --check . --ignore-path .gitignore",
+  "format:fix": "pnpm format --write"
+}
+```
+
 ## License
 
 MPL-2.0
