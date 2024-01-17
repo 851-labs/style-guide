@@ -1,0 +1,14 @@
+{
+  "name": "@851/style-guide",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://github.com/851-labs/style-guide#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/851-labs/style-guide.git"
+  },
+  "author": "851 Inc.",
+  "license": "MPL-2.0",
+  "packageManager": "pnpm@8.14.0",
+  "scripts": {}
+}

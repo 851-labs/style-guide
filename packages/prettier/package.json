@@ -1,0 +1,22 @@
+{
+  "name": "@851/prettier",
+  "version": "1.0.0",
+  "homepage": "https://github.com/851-labs/style-guide#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/851-labs/style-guide.git"
+  },
+  "author": "851 Inc.",
+  "license": "MPL-2.0",
+  "main": "index.mjs",
+  "files": [
+    "index.mjs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  }
+}
