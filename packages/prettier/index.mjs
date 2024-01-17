@@ -20,7 +20,6 @@ const config = {
   importOrderParserPlugins: ["typescript", "jsx", "decorators-legacy"],
   importOrderTypeScriptVersion: "4.4.0",
   tailwindFunctions: ["cn"],
-  tailwindConfig: "./apps/web/tailwind.config.ts",
   printWidth: 120,
   tabWidth: 2,
   useTabs: false,
