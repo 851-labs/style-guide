@@ -8,8 +8,9 @@
   },
   "author": "851 Inc.",
   "license": "MPL-2.0",
-  "module": "index.mjs",
   "publishConfig": { "access": "public" },
+  "module": "index.mjs",
+  "main": "index.mjs",
   "files": [
     "index.mjs"
   ],
@@ -19,5 +20,8 @@
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "prettier-plugin-tailwindcss": "^0.5.11"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0 <4"
   }
 }
