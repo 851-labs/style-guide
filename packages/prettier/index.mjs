@@ -11,7 +11,7 @@ const config = {
     "^(expo(.*)$)|^(expo$)",
     "<THIRD_PARTY_MODULES>",
     "",
-    "^@851/(.*)$",
+    "^@851-labs/(.*)$",
     "",
     "^~/",
     "^[../]",
