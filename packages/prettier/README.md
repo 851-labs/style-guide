@@ -1,4 +1,4 @@
-# @851/prettier
+# @851-labs/prettier
 
 ## Installation
 
@@ -36,3 +36,7 @@ const config = {
 export default config;
 
 ```
+
+## License
+
+MPL-2.0
