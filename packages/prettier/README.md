@@ -34,7 +34,6 @@ const config = {
 };
 
 export default config;
-
 ```
 
 ## Scripts

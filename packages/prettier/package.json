@@ -8,13 +8,16 @@
   },
   "author": "851 Inc.",
   "license": "MPL-2.0",
-  "publishConfig": { "access": "public" },
+  "publishConfig": {
+    "access": "public"
+  },
   "module": "index.mjs",
   "main": "index.mjs",
   "files": [
     "index.mjs"
   ],
   "scripts": {
+    "format": "prettier --check . --ignore-path .gitignore"
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
@@ -22,5 +25,8 @@
   },
   "peerDependencies": {
     "prettier": ">=3.0.0 <4"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4"
   }
 }
