@@ -1,0 +1,36 @@
+{
+  "name": "@851-labs/eslint",
+  "version": "1.0.0",
+  "homepage": "https://github.com/851-labs/style-guide#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/851-labs/style-guide.git"
+  },
+  "author": "851 Inc.",
+  "license": "MPL-2.0",
+  "publishConfig": { "access": "public" },
+  "module": "index.mjs",
+  "main": "index.mjs",
+  "files": [
+    "index.mjs"
+  ],
+  "scripts": {
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "^14.0.4",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^1.11.2",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "peerDependencies": {
+    "@types/eslint": "^8.56.0",
+    "@851-labs/prettier": "workspace:^1.0.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  }
+}
