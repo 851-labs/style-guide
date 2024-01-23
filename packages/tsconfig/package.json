@@ -1,0 +1,26 @@
+{
+  "name": "@851-labs/tsconfig",
+  "version": "1.0.0",
+  "homepage": "https://github.com/851-labs/style-guide#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/851-labs/style-guide.git"
+  },
+  "author": "851 Inc.",
+  "license": "MPL-2.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "node.json"
+  ],
+  "scripts": {
+    "format": "prettier --check . --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@851-labs/prettier": "workspace:^",
+    "prettier": "^3.2.4"
+  }
+}

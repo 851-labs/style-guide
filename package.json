@@ -10,5 +10,8 @@
   "author": "851 Inc.",
   "license": "MPL-2.0",
   "packageManager": "pnpm@8.14.0",
-  "scripts": {}
+  "scripts": {
+    "format": "pnpm -r run format",
+    "format:fix": "pnpm -r run format --write"
+  }
 }
