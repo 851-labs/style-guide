@@ -45,4 +45,4 @@ const config = {
   reportUnusedDisableDirectives: true,
 };
 
-module.exports = config;
+export default config
