@@ -1,6 +1,6 @@
 {
   "name": "@851-labs/eslint",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://github.com/851-labs/style-guide#readme",
   "repository": {
     "type": "git",
@@ -11,6 +11,9 @@
   "publishConfig": { "access": "public" },
   "module": "index.mjs",
   "main": "index.mjs",
+  "exports": {
+    "./*": "./*.js"
+  },
   "files": [
     "base.js",
     "nextjs.js",
