@@ -1,6 +1,6 @@
 {
   "name": "@851-labs/eslint",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "homepage": "https://github.com/851-labs/style-guide#readme",
   "repository": {
     "type": "git",
@@ -10,6 +10,11 @@
   "license": "MPL-2.0",
   "publishConfig": {
     "access": "public"
+  },
+  "exports": {
+    "./base.js": "./base.js",
+    "./nextjs.js": "./nextjs.js",
+    "./react.js": "./react.js"
   },
   "files": [
     "base.js",
