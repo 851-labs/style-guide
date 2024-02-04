@@ -11,7 +11,9 @@
   "license": "MPL-2.0",
   "packageManager": "pnpm@8.14.0",
   "scripts": {
+    "clean": "git clean -xdf node_modules && pnpm -r run clean",
     "format": "pnpm -r run format",
-    "format:fix": "pnpm -r run format --write"
+    "format:fix": "pnpm -r run format --write",
+    "typecheck": "pnpm -r run typecheck"
   }
 }

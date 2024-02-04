@@ -17,7 +17,9 @@
     "index.mjs"
   ],
   "scripts": {
-    "format": "prettier --check . --ignore-path .gitignore"
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check . --ignore-path .gitignore",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
@@ -27,6 +29,8 @@
     "prettier": ">=3.0.0 <4"
   },
   "devDependencies": {
-    "prettier": "^3.2.4"
+    "@851-labs/tsconfig": "workspace:^",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
   }
 }

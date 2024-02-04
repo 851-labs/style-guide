@@ -22,7 +22,9 @@
     "react.js"
   ],
   "scripts": {
-    "format": "prettier --check . --ignore-path .gitignore"
+    "clean": "rm -rf .turbo node_modules",
+    "format": "prettier --check . --ignore-path .gitignore",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^14.0.4",
@@ -37,11 +39,12 @@
   },
   "peerDependencies": {
     "@types/eslint": "^8.56.0",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3"
+    "eslint": "^8.56.0"
   },
   "devDependencies": {
     "@851-labs/prettier": "workspace:^",
-    "prettier": "^3.2.4"
+    "@851-labs/tsconfig": "workspace:^",
+    "prettier": "^3.2.4",
+    "typescript": "^5.3.3"
   }
 }
