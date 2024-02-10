@@ -4,7 +4,8 @@
   "homepage": "https://github.com/851-labs/style-guide#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/851-labs/style-guide.git"
+    "url": "https://github.com/851-labs/style-guide.git",
+    "directory": "packages/prettier"
   },
   "author": "851 Inc.",
   "license": "MPL-2.0",
