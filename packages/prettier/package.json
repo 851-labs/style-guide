@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@851-labs/tsconfig": "workspace:^",
-    "prettier": "^3.2.4",
+    "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   }
 }

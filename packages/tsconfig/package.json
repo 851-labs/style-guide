@@ -22,6 +22,6 @@
   },
   "devDependencies": {
     "@851-labs/prettier": "workspace:^",
-    "prettier": "^3.2.4"
+    "prettier": "^3.2.5"
   }
 }
