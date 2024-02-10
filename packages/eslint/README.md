@@ -3,13 +3,15 @@
 ## Installation
 
 > [!NOTE]  
-> Eslint is a peer-dependency of this package and should also be installed.
+> ESlint is a peer-dependency of this package and should also be installed.
 
 ```bash
 pnpm i -D eslint @851-labs/eslint-config
 ```
 
 ## Usage
+
+The ESLint package is designed to be composable. To use the shared ESLint config, pick the configs that suit your needs and set the following in `package.json`.
 
 ```json
 "eslintConfig": {
@@ -26,7 +28,7 @@ pnpm i -D eslint @851-labs/eslint-config
 
 ```json
 "scripts": {
-  "lint": "",
+  "lint": "eslint .",
   "lint:fix": "pnpm format --fix"
 }
 ```
