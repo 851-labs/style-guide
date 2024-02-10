@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-
+pnpm i -D @851-labs/tsconfig
 ```
 
 ## Usage

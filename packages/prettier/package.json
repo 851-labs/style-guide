@@ -1,6 +1,6 @@
 {
-  "name": "@851-labs/prettier",
-  "version": "1.2.1",
+  "name": "@851-labs/prettier-config",
+  "version": "1.3.0",
   "homepage": "https://github.com/851-labs/style-guide#readme",
   "repository": {
     "type": "git",

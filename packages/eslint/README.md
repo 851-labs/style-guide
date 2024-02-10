@@ -1,4 +1,4 @@
-# @851-labs/eslint
+# @851-labs/eslint-config
 
 ## Installation
 
@@ -6,7 +6,7 @@
 > Eslint is a peer-dependency of this package and should also be installed.
 
 ```bash
-pnpm i -D eslint @types/eslint @851-labs/eslint
+pnpm i -D eslint @851-labs/eslint-config
 ```
 
 ## Usage
