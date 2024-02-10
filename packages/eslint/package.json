@@ -1,6 +1,6 @@
 {
-  "name": "@851-labs/eslint",
-  "version": "1.1.4",
+  "name": "@851-labs/eslint-config",
+  "version": "1.2.0",
   "homepage": "https://github.com/851-labs/style-guide#readme",
   "repository": {
     "type": "git",
@@ -10,11 +10,6 @@
   "license": "MPL-2.0",
   "publishConfig": {
     "access": "public"
-  },
-  "exports": {
-    "./base.js": "./base.js",
-    "./nextjs.js": "./nextjs.js",
-    "./react.js": "./react.js"
   },
   "files": [
     "base.js",
@@ -37,13 +32,13 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0"
   },
-  "peerDependencies": {
-    "eslint": "^8.56.0"
-  },
   "devDependencies": {
     "@851-labs/prettier": "workspace:^",
     "@851-labs/tsconfig": "workspace:^",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.0.0 <9"
   }
 }

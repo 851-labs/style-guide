@@ -25,12 +25,12 @@
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "prettier-plugin-tailwindcss": "^0.5.11"
   },
-  "peerDependencies": {
-    "prettier": ">=3.0.0 <4"
-  },
   "devDependencies": {
     "@851-labs/tsconfig": "workspace:^",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0 <4"
   }
 }
