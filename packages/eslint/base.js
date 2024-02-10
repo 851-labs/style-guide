@@ -37,8 +37,7 @@ const config = {
     ".next",
     "dist",
     "pnpm-lock.yaml",
-    "generated",
-    "graphql.generated.ts",
+    "**/*.generated.ts"
   ],
   reportUnusedDisableDirectives: true,
 };
