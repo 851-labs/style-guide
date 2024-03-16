@@ -1,6 +1,6 @@
 {
   "name": "@851-labs/tsconfig",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "homepage": "https://github.com/851-labs/style-guide#readme",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "format": "prettier --check . --ignore-path .gitignore"
   },
   "devDependencies": {
-    "@851-labs/prettier": "workspace:^",
+    "@851-labs/prettier-config": "workspace:*",
     "prettier": "^3.2.5"
   }
 }
