@@ -21,6 +21,7 @@
     "clean": "rm -rf .turbo node_modules",
     "format": "prettier --check . --ignore-path .gitignore"
   },
+  "prettier": "@851-labs/prettier-config",
   "devDependencies": {
     "@851-labs/prettier-config": "workspace:*",
     "prettier": "^3.2.5"
